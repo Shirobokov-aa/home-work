@@ -1,0 +1,15 @@
+.centr{
+    text-align: center;
+    color: darkcyan;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+.txt{
+    margin-right: 50%;
+}
+h3{
+    color: rgb(115, 115, 115);
+}
+.cursiv{
+    font-family: cursive;
+}
