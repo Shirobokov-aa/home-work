@@ -1,0 +1,62 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+abbr {
+    border-bottom: 1px dashed red;
+    color: #000080;
+}
+code{
+    color: rgb(193, 57, 33);
+    background-color: rgb(209, 209, 209);
+}
+pre{
+    background-color: rgb(209, 209, 209);
+}
+.tittle{
+    color: black;
+}
+.world{
+    color: black;
+}
+.tags{
+    font-size: 14px;
+
+}
+.CodingScripting{
+    color: cadetblue;
+    background-color: rgb(209, 209, 209);
+}
+.head{
+    color: cadetblue;
+    background-color: rgb(209, 209, 209);
+}
+.HTML{
+    color: cadetblue;
+    background-color: rgb(209, 209, 209);
+}
+.IntroductiontoHTML{
+    color: cadetblue;
+    background-color: rgb(209, 209, 209);
+}
+.Landing{
+    color: cadetblue;
+    background-color: rgb(209, 209, 209);
+}
+.Linkssemantics{
+    color: cadetblue;
+    background-color: rgb(209, 209, 209);
+}
+.Structure{
+    color: cadetblue;
+    background-color: rgb(209, 209, 209);
+}
+.Text{
+    color: cadetblue;
+    background-color: rgb(209, 209, 209);
+}
