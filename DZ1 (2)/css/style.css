@@ -1,0 +1,92 @@
+.contaner1{
+    background-color: rgb(167, 167, 167);
+    /* box-sizing: content-box; */
+    width: 50px;
+    height: 50px;
+    
+}
+.tref{
+    font-size: 34px;
+    color: black;
+    text-align: center;
+    padding: 11%;
+}
+/* .contaner2{
+    background-color: rgb(167, 167, 167);
+    box-sizing: content-box;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    float: left;
+} */
+.con2{
+    background-color: rgb(167, 167, 167);
+    /* box-sizing: content-box; */
+    width: 50px;
+    height: 50px;
+    margin-block: -44px;
+    margin-left: 50px;
+}
+.cherv{
+    
+    font-size: 34px;
+    color: rgb(232, 2, 2);
+    text-align: center;
+    padding: 11%;
+}
+.con3{
+    background-color: rgb(167, 167, 167);
+    /* box-sizing: content-box; */
+    width: 50px;
+    height: 50px;
+    margin-block: -44px;
+    margin-left: 51px;
+}
+.tuz{
+    
+    font-size: 34px;
+    color: rgb(232, 2, 2);
+    text-align: center;
+    padding: 9%;
+}
+.con4{
+    background-color: rgb(167, 167, 167);
+    /* box-sizing: content-box; */
+    width: 50px;
+    height: 50px;
+    margin-block: 50px;
+    margin-left: 0px;
+}
+.dama{
+    
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 8%;
+}
+.con5{
+    background-color: rgb(167, 167, 167);
+    /* box-sizing: content-box; */
+    width: 50px;
+    height: 50px;
+    margin-block: -42px;
+    margin-left: 52px;
+}
+.korol{
+    
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5%;
+}
+.con6{
+    background-color: rgb(167, 167, 167);
+    /* box-sizing: content-box; */
+    width: 50px;
+    height: 50px;
+    margin-block: -42px;
+    margin-left: 52px;
+}
+/* body{
+    display: flex;
+} */
