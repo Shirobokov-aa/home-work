@@ -1,10 +1,70 @@
-.back{
-    width: auto;
-    height: 500px;
-    background-color: rgb(255, 95, 95);
-    margin: 20px;
+.container{
+    height: 220px;
+    width: 500px;
+    align-items: center;
+    background-color: rgba(166, 0, 0, 0.782);
+    margin: 50px auto;
+    padding-top: 1px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    padding: 1px 25px;
+    
+}
+body {
+  counter-reset: section;
+  
+}
+
+h3::before {
+  counter-increment: section;
+  content: counter(section) ". ";
+  background-color:rgba(255, 74, 74, 0.782) ;
+  background-size: auto;
+}
+/* понял как цвет цифры растнуть на всю строку */
+
+h3{
+background-color: rgba(255, 74, 74, 0.782);
+/* padding: 0 10px; */
+
+}
+h3 span{
+    background-color: rgba(176, 0, 0, 0.811);
+    margin: 0px 15px;
+    padding: 0px 10px;
+}
+
+.container--2{
+    height: auto;
+    width: 500px;
+    align-items: center;
+    background-color: rgba(255, 74, 74, 0.782);
+    margin: 50px auto;
+    padding: 15px;
+
+}
+li{
+    margin-top: 15px;
+    padding-top: 0;
+    background-color: rgba(255, 39, 39, 0.811);
+    font-size: 100%;
+   
 }
 li span{
-        background-color: rgb(179, 0, 0);
-        padding: 10px;
-    }
+    background-color: rgba(176, 0, 0, 0.811);
+    margin: 0px 15px;
+    padding: 0px 10px;
+}
+
+/* ol::before {
+  counter-increment: section;
+  content: counter(section) ". ";
+  background-color:rgba(26, 0, 0, 0.782) ;
+  background-size: auto;
+} */
+li::marker{
+    background-color: rgb(200, 0, 0);
+    /* мне кажется это нужно для того что-бы заработало, 
+    но не работает */
+}
+
