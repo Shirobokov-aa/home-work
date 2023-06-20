@@ -1,0 +1,10 @@
+.back{
+    width: auto;
+    height: 500px;
+    background-color: rgb(255, 95, 95);
+    margin: 20px;
+}
+li span{
+        background-color: rgb(179, 0, 0);
+        padding: 10px;
+    }
