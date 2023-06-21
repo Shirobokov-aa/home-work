@@ -1,0 +1,63 @@
+header, .menu{
+    background-color: rgba(104, 12, 12, 0.534);
+    height: 50px;
+    /* Задний фон
+    Высота */
+    
+}
+b{
+    margin: 15px;
+}
+.menu{
+    margin: 20px 0;
+    /* отступ */
+
+}
+.main-row{
+    display: flex;
+    /* выравнивание по середине */
+}
+
+.main-content-block{
+    height: 150px;
+    background-color: rgba(100, 0, 131, 0.514);
+    margin: 5px 0;
+}
+.side-bar-block{
+    height: 150px;
+    background-color: brown;
+    margin-bottom: 10px;
+
+}
+
+.side-bar{
+    height: 300px;
+    margin-right: 20px;
+}
+
+.main-content{
+    width: 100%; 
+    /* высота 100% */
+    background-color: rgb(255, 88, 66);
+    padding: 15px;
+    /* внутрение отстцпы */
+    box-sizing: border-box;
+    /* запрещает перемещение с падингами */
+
+
+}
+.side-bar-right{
+    width: 150px;
+    height: auto;
+    background-color: red;
+    margin-left: 20px;
+   
+    
+}
+.footer {
+    width: auto;
+    height: 50px;
+    background-color: rgba(155, 1, 1, 0.603);
+    margin-top: 10px;
+    padding-left: 20px;
+}
