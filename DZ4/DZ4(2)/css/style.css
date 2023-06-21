@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+}
+.block-left{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color:brown;
+    overflow: hidden;
+}
+.block-right{
+    width: 400px;
+    height: 200px;
+    background-color:brown;
+}
+@keyframes open{
+    0% {
+        transform: perspective(800px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(800px) rotateY(-90deg);
+    }
+}
+.block-left.open{
+    animation: open 1s forwards;
+}
