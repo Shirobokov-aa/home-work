@@ -1,0 +1,157 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    
+}
+.main_row{
+    display: flex;
+}
+.red{
+    width: 230px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
+    transition: all 0.3s ease;
+}
+.header-red{
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.price-red{
+    color: black;
+    font-size: 50px;
+    border-top: 2px solid red;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.txt{
+    font-size: 14px;
+    color: grey;
+    line-height: 30px;
+}
+.content{
+    font-size: 20px;
+}
+.button-red{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.yellow{
+    width: 230px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
+    margin-left: 30px;
+    transition: all 0.3s ease;
+}
+.header-yellow{
+    color: rgb(255, 182, 26);
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.price-yellow{
+    color: black;
+    font-size: 50px;
+    border-top: 2px solid rgb(255, 182, 26);
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.button-yellow{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 182, 26);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.blue{
+    width: 230px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
+    margin-left: 30px;
+    transition: all 0.3s ease;
+}
+.header-blue{
+    color: rgb(35, 31, 255);
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.price-blue{
+    color: black;
+    font-size: 50px;
+    border-top: 2px solid rgb(35, 31, 255);
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.button-blue{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(35, 31, 255);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.green{
+    width: 230px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
+    margin-left: 30px;
+    transition: all 0.3s ease;
+}
+.header-green{
+    color: rgb(5, 158, 0);
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.price-green{
+    color: black;
+    font-size: 50px;
+    border-top: 2px solid rgb(5, 158, 0);
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.button-green{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(5, 158, 0);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.red:hover{
+    transform: scale(1.1);
+}
+.green:hover{
+    transform: scale(1.1);
+}
+.blue:hover{
+    transform: scale(1.1);
+}
+.yellow:hover{
+    transform: scale(1.1);
+}
