@@ -1,0 +1,21 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 96%;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+}
+img{
+    width: 220px;
+    height: 220px;
+    
+}
+.block__right{
+    margin-top: 125px;
+}
+
+.block{
+    border: 1px solid rgba(127, 255, 212, 0);
+    background-color: aquamarine;
+    border-radius: 5%;
+}
