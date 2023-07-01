@@ -12,11 +12,7 @@ img{
     border-radius: 4% 4% 0% 0%;
     
 }
-.block__left{
-    
-   
 
-}
 .block__right{
     display: flex;
     flex-direction: column;
